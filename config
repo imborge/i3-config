@@ -173,6 +173,8 @@ mode "exit" {
      
      bindsym s exec "shutdown now"
 
+     bindsym r exec "shutdown -r 0"
+
      bindsym Return mode "default"
      bindsym Escape mode "default"
 }
